@@ -690,3 +690,96 @@ html.aydinlik .hero-sol p {
 .popup-kutu.aydinlik .sss-cevap {
     color: #475569;
 }
+
+/* Mobil Uyumluluk */
+@media screen and (max-width: 768px) {
+    .bolum {
+        width: 95%;
+    }
+    .footer {
+        width: 95%;
+    }
+    #anasayfa {
+        width: 95%;
+    }
+    .hakkimizda-konteynir {
+        flex-direction: column;
+    }
+    .footer .ana {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbarBaslik {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_sol {
+        order: 1; 
+    }
+    .navbar_sag {
+        order: 2;
+    }
+    .navbar_orta {
+        display: none;
+    }
+    .navbar_orta a {
+        padding: 0;
+        font-size: 15px;
+    }
+    .instagram span {
+        display: none;
+    }
+    .instagram {
+        padding: 9px 12px; 
+    }
+    .hakkimda-sag {
+        margin-left: 0;
+    }
+    .hakkimda-sag img {
+        width: 100%;
+    }
+    .hero-sol p {
+        font-size: 18px;
+    }
+    .hero-sol h1 {
+        font-size: 38px;
+    }
+    .kaydir-btn {
+        display: none;
+    }
+    .hero-butonlar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-katil {
+        text-align: center;
+    }
+    .btn-etkgor {
+        text-align: center;
+    }
+    .ikonlar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .footer .ana .sol p {
+        width: 100%;
+    }
+    .footer .alt {
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+    #usteKaydirma {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
